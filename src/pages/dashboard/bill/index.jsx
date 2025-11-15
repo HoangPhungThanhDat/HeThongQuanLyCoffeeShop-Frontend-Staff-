@@ -6,9 +6,9 @@ import OrderAPI from "@/api/orderApi";
 import Swal from "sweetalert2";
 import "animate.css";
 import BillTable from "./components/BillTable";
-import Create from "./Create";
-import Edit from "./Edit";
-import Show from "./Show";
+import Create from "./create";
+import Edit from "./edit";
+import Show from "./show";
 import { motion } from "framer-motion";
 
 export function Bill() {

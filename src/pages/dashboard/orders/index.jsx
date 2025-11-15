@@ -10,9 +10,9 @@ import { motion, AnimatePresence } from "framer-motion";
 import { PlusIcon, ArrowPathIcon } from "@heroicons/react/24/outline";
 
 import OrderTable from "./components/OrderTable";
-import Create from "./Create";
-import Edit from "./Edit";
-import Show from "./Show";
+import Create from "./create";
+import Edit from "./edit";
+import Show from "./show";
 
 import OrderAPI from "@/api/orderApi";
 import TableAPI from "@/api/tableApi";

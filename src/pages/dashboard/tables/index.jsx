@@ -4,7 +4,7 @@ import TableAPI from "@/api/tableApi";
 import Swal from "sweetalert2";
 import "animate.css";
 import TablesTable from "./components/TablesTable";
-import Show from "./Show";
+import Show from "./show";
 import { motion } from "framer-motion";
 import socket from "../../../socket";
 
