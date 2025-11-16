@@ -712,12 +712,12 @@ if (loading) {
                       >
                         <td className="py-4 px-6">
                           <div className="flex items-center gap-4">
-                            <motion.div
+                          <motion.div
                               whileHover={{ scale: 1.1 }}
                               transition={{ duration: 0.3 }}
                             >
                               <Avatar 
-                                src={`http://localhost:8080/api/products/image/${product.imageUrl}`}
+                                src={product.imageUrl || "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='200'%3E%3Crect width='300' height='200' fill='%23ddd'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='Arial' font-size='18' fill='%23999'%3ENo Image%3C/text%3E%3C/svg%3E"}
                                 alt={product.name}
                                 size="md"
                                 className="border-2 border-amber-400/50"
@@ -804,16 +804,16 @@ if (loading) {
                       #{index + 1}
                     </motion.div>
                     <motion.div
-                      whileHover={{ scale: 1.3, rotate: 15 }}
-                      transition={{ duration: 0.3 }}
-                    >
-                      <Avatar
-                        src={`http://localhost:8080/api/products/image/${product.imageUrl}`}
-                        alt={product.name}
-                        size="sm"
-                        className="border-2 border-amber-400/30"
-                      />
-                    </motion.div>
+                        whileHover={{ scale: 1.1 }}
+                        transition={{ duration: 0.3 }}
+                      >
+                        <Avatar 
+                          src={product.imageUrl || "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='200'%3E%3Crect width='300' height='200' fill='%23ddd'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='Arial' font-size='18' fill='%23999'%3ENo Image%3C/text%3E%3C/svg%3E"}
+                          alt={product.name}
+                          size="md"
+                          className="border-2 border-amber-400/50"
+                        />
+                      </motion.div>
                     <div className="flex-1">
                       <Typography variant="small" className="font-bold text-amber-50">
                         {product.name}
