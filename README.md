@@ -2,7 +2,7 @@
 
 <img src="public/img/favicon.png" width="72" alt="coffee icon"/>
 
-# ☕ Coffee Shop Staff Dashboard
+#  Coffee Shop Staff Dashboard
 ## Giao Diện Nhân Viên (Frontend — Coffee-Staff)
 
 **Ứng dụng quản lý đơn hàng, bàn và thanh toán realtime dành cho nhân viên quán cà phê**
@@ -558,7 +558,7 @@ git commit -m 'Add: mô tả tính năng'
 git push origin feature/TenTinhNang
 ```
 
-> 📋 Vui lòng tham khảo `CHANGELOG.md` và `ISSUE_TEMPLATE.md` trước khi đóng góp.
+
 
 ---
 
@@ -570,12 +570,12 @@ Phát hành theo giấy phép **MIT** — xem chi tiết tại [`LICENSE`](./LIC
 
 **Tác giả: Hoàng Đạt**
 
-[![Email](https://img.shields.io/badge/Email-dat147714%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:dat147714@gmail.com)
+[![Email](https://img.shields.io/badge/Email-hoangdat.engineer%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:hoangdat.engineer@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-HoangPhungThanhDat-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/HoangPhungThanhDat)
 
 <br>
 
-☕ **Made with React & Vite — dành riêng cho nhân viên quán cà phê** ⚛️
+ **Made with React & Vite — dành riêng cho nhân viên quán cà phê** ⚛️
 
 <sub>Nếu dự án hữu ích, đừng quên để lại ⭐ trên repository!</sub>
 
