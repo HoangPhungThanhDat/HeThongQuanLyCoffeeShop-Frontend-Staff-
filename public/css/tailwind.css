@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* =========================================
+   ANIMATIONS CHO THÔNG BÁO
+   ========================================= */
+   @keyframes pulse {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.08); }
+  }
+  
+  @keyframes pulseRing {
+    0% {
+      box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.7);
+    }
+    70% {
+      box-shadow: 0 0 0 24px rgba(239, 68, 68, 0);
+    }
+    100% {
+      box-shadow: 0 0 0 0 rgba(239, 68, 68, 0);
+    }
+  }
+  
+  @keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    25% { transform: translateX(-6px); }
+    75% { transform: translateX(6px); }
+  }
+  
+  /* =========================================
+     TOAST CUSTOM STYLE
+     ========================================= */
+  .swal2-toast.staff-toast {
+    border-radius: 12px !important;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12) !important;
+    padding: 14px 18px !important;
+  }
+  
+  .swal2-toast.staff-toast .swal2-title {
+    font-size: 14px !important;
+    font-weight: 700 !important;
+  }
+  
+  .swal2-toast.staff-toast .swal2-html-container {
+    font-size: 13px !important;
+  }
+  
+  /* =========================================
+     SWEETALERT POPUP — Đẹp hơn
+     ========================================= */
+  .swal2-popup {
+    border-radius: 20px !important;
+    padding: 24px 20px !important;
+    font-family: inherit !important;
+    box-shadow: 0 25px 60px rgba(0, 0, 0, 0.2) !important;
+  }
+  
+  .swal2-popup .swal2-title {
+    font-family: inherit !important;
+  }
+  
+  .swal2-popup .swal2-html-container {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  
+  .swal2-styled.swal2-confirm {
+    border-radius: 12px !important;
+    padding: 12px 24px !important;
+    font-weight: 700 !important;
+    font-size: 14px !important;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15) !important;
+    transition: all 0.2s ease !important;
+  }
+  
+  .swal2-styled.swal2-confirm:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.2) !important;
+  }
+  
+  .swal2-styled.swal2-cancel {
+    border-radius: 12px !important;
+    padding: 12px 24px !important;
+    font-weight: 700 !important;
+    font-size: 14px !important;
+  }
+  
+  .swal2-timer-progress-bar {
+    height: 4px !important;
+    background: currentColor !important;
+  }

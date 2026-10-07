@@ -1,0 +1,53 @@
+# ==================== Logs ====================
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ==================== Dependencies ====================
+# Không commit node_modules — nặng, cài lại bằng npm install
+node_modules/
+.npm
+.pnpm-store/
+
+# ==================== Lock files ====================
+# QUAN TRỌNG: KHÔNG ignore các file này
+# Cần commit để đảm bảo version chính xác cho mọi máy
+# package-lock.json   ← GIỮ LẠI (không ignore)
+# pnpm-lock.yaml      ← GIỮ LẠI
+# yarn.lock           ← GIỮ LẠI
+
+# ==================== Build output ====================
+dist/
+dist-ssr/
+build/
+.vite/
+
+# ==================== Local env files ====================
+.env
+.env.local
+.env.*.local
+*.local
+
+# ==================== Testing ====================
+coverage/
+.nyc_output/
+
+# ==================== Editor directories and files ====================
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ==================== OS ====================
+Thumbs.db
+Desktop.ini
